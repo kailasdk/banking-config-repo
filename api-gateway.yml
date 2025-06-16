@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8090
 
 spring:
   application:
@@ -17,8 +17,3 @@ spring:
           uri: lb://TRANSACTION-SERVICE
           predicates:
             - Path=/transactions/**
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
