@@ -17,4 +17,6 @@ spring:
           uri: lb://TRANSACTION-SERVICE
           predicates:
             - Path=/transactions/**
-  
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
