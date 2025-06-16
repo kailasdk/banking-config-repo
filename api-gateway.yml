@@ -17,3 +17,4 @@ spring:
           uri: lb://TRANSACTION-SERVICE
           predicates:
             - Path=/transactions/**
+  
