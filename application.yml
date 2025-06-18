@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: https://discovery-server-production-5f28.up.railway.app/eureka/
+      defaultZone: http://discovery-server:8761/eureka/
   instance:
     prefer-ip-address: true
 
