@@ -1,4 +1,3 @@
-# Use an official OpenJDK image
 FROM openjdk:17-jdk-alpine
 
 # Set the working directory inside the container
