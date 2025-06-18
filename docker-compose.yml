@@ -43,7 +43,5 @@ services:
     ports:
       - "8080:8080"
     depends_on:
-      - config-server
-      - discovery-server
-      - account-service
-      - transaction-service
+    - config-server
+    - discovery-server
